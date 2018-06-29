@@ -1574,7 +1574,7 @@
 /* 255 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(8);\n\nvar About = function About(props) {\n  return React.createElement(\n    'h3',\n    null,\n    'About component'\n  );\n};\n\nmodule.exports = About;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/About.jsx\n ** module id = 255\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/About.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(8);\n\nvar About = function About(props) {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(\n      'h1',\n      { className: 'text-center' },\n      'About'\n    ),\n    React.createElement(\n      'p',\n      null,\n      ' It is a weather app built using React '\n    ),\n    React.createElement(\n      'p',\n      null,\n      ' Here are some tools used:'\n    ),\n    React.createElement(\n      'ul',\n      null,\n      React.createElement(\n        'li',\n        null,\n        React.createElement(\n          'a',\n          { href: 'https://facebook.github.io/react' },\n          'React'\n        ),\n        ' - JS Framework used '\n      ),\n      React.createElement(\n        'li',\n        null,\n        React.createElement(\n          'a',\n          { href: 'http://openWeatherMap.org' },\n          'OpenWeatherMap'\n        ),\n        ' -  API used for fetching weather'\n      )\n    )\n  );\n};\n\nmodule.exports = About;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/About.jsx\n ** module id = 255\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/About.jsx?");
 
 /***/ },
 /* 256 */
