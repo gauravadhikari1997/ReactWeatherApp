@@ -11,6 +11,7 @@ var About = (props) => {
       <li><a href='https://facebook.github.io/react'>React</a> - JS Framework used </li>
       <li><a href='http://openWeatherMap.org'>OpenWeatherMap</a> -  API used for fetching weather</li>
     </ul>
+    <p><br /><a href='https://gauravadhikari.com'>Gaurav Adhikari</a> You may check my website here!</p>
     </div>
   );
 };

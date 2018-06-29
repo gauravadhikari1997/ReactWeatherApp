@@ -12,17 +12,13 @@ var Nav = React.createClass({
       <div className="top-bar-left">
         <ul className="menu" data-dropdown-menu>
           <li className="menu-text"><IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink></li>
-          <li><Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link></li>
-          <li><Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link></li>
         </ul>
       </div>
       <div className="top-bar-right">
-      <form onSubmit={this.onSearch}>
         <ul className="menu">
-          <li><input type="search" placeholder="Search weather" /></li>
-          <li><input type="submit" className="button" value="Get weather" /></li>
+        <li><Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link></li>
+        <li><Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link></li>
         </ul>
-        </form>
       </div>
     </div>
     );
