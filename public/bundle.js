@@ -1382,7 +1382,7 @@
 /* 223 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(8);\nvar Nav = __webpack_require__(224);\n\nvar Main = function Main(props) {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(Nav, null),\n    props.children\n  );\n};\n\nmodule.exports = Main;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Main.jsx\n ** module id = 223\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Main.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(8);\nvar Nav = __webpack_require__(224);\n\nvar Main = function Main(props) {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(Nav, null),\n    React.createElement(\n      'div',\n      { className: 'row' },\n      React.createElement(\n        'div',\n        { className: 'columns mediun-6 large-4 small-centered' },\n        props.children\n      )\n    )\n  );\n};\n\nmodule.exports = Main;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Main.jsx\n ** module id = 223\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Main.jsx?");
 
 /***/ },
 /* 224 */
@@ -1580,7 +1580,7 @@
 /* 256 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(8);\n\nvar Examples = function Examples(props) {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(\n      'h3',\n      null,\n      'Examples'\n    )\n  );\n};\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Examples.jsx\n ** module id = 256\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(8);\n\nvar _require = __webpack_require__(166),\n    Link = _require.Link;\n\nvar Examples = function Examples(props) {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(\n      'h1',\n      { className: 'text-center' },\n      'Examples'\n    ),\n    React.createElement(\n      'p',\n      null,\n      ' Few example locations to try out '\n    ),\n    React.createElement(\n      'ol',\n      null,\n      React.createElement(\n        'li',\n        null,\n        React.createElement(\n          Link,\n          { to: '/?location=India' },\n          ' India, IN '\n        )\n      ),\n      React.createElement(\n        'li',\n        null,\n        React.createElement(\n          Link,\n          { to: '/?location=Rio' },\n          ' Rio, Brazil'\n        )\n      )\n    )\n  );\n};\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./app/components/Examples.jsx\n ** module id = 256\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./app/components/Examples.jsx?");
 
 /***/ },
 /* 257 */
